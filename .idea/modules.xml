@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/androidGame.iml" filepath="$PROJECT_DIR$/androidGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lianlian/lianlian.iml" filepath="$PROJECT_DIR$/lianlian/lianlian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wuziqi/wuziqi.iml" filepath="$PROJECT_DIR$/wuziqi/wuziqi.iml" />
     </modules>
   </component>
 </project>
