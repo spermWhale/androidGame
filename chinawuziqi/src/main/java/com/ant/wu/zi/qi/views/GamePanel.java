@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wu.zi.qi.views;
+package com.ant.wu.zi.qi.views;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -26,8 +26,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.wu.zi.qi.R;
-import com.wu.zi.qi.utils.AntLog;
+import com.ant.wu.zi.qi.R;
+import com.ant.wu.zi.qi.utils.AntLog;
 
 import java.util.ArrayList;
 
@@ -73,8 +73,8 @@ public class GamePanel extends View {
         paint.setAntiAlias(true);
         paint.setStyle(Paint.Style.STROKE);
         //init bitmap image
-        whitePiece = BitmapFactory.decodeResource(getResources(), R.mipmap.white_stone);
-        blackPiece = BitmapFactory.decodeResource(getResources(), R.mipmap.black_stone);
+        whitePiece = BitmapFactory.decodeResource(getResources(), R.mipmap.whrite);
+        blackPiece = BitmapFactory.decodeResource(getResources(), R.mipmap.black);
     }
 
     @Override

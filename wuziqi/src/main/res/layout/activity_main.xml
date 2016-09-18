@@ -2,11 +2,38 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/main_bg">
+    android:background="@mipmap/chessboard_bg">
 
     <com.wu.zi.qi.views.GamePanel
+        android:id="@+id/ac_main_game_panel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:text="Hello World!" />
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/ac_main_obt_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_obt_ok" />
+
+    <Button
+        android:id="@+id/ac_main_obt_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_obt_ok" />
+
+    <Button
+        android:id="@+id/ac_main_obt_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_obt_ok" />
+
+    <Button
+        android:id="@+id/ac_main_obt_restar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bg_obt_ok" />
 </RelativeLayout>

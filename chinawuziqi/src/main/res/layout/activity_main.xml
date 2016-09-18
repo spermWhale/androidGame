@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back_main"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/ac_main_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/shape_main_obt_background"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="开始对弈"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/ac_main_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_main_obt_background"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="棋盘设置"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/ac_main_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_main_obt_background"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="游戏帮助"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/ac_main_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_main_obt_background"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="退出游戏"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+
+</LinearLayout>

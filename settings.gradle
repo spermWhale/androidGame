@@ -1,1 +1,1 @@
-include ':lianlian', ':app', ':wuziqi'
+include ':lianlian', ':app', ':wuziqi', ':chinawuziqi'
