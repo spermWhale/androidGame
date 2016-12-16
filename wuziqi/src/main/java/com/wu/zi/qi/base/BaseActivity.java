@@ -17,7 +17,6 @@ package com.wu.zi.qi.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 
 public abstract class BaseActivity extends AppCompatActivity implements BaseInterface {
@@ -32,15 +31,6 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseInte
         initView();
         initData();
         initListener();
-
     }
-
-    public void initActionBar() {
-        ActionBar bar = getSupportActionBar();
-        bar.setDisplayHomeAsUpEnabled(true);
-        bar.setDisplayShowHomeEnabled(true);
-        bar.setDisplayHomeAsUpEnabled(true);
-    }
-
 
 }
